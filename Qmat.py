@@ -29,7 +29,7 @@ class Qmat:
             ans = 0
             for i in range(self.space):
                 ans += pos[i]*self.mult[i]
-            return ans
+            return int(ans)
         return -1
 
     def get(self, pos, pos2):
